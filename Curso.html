@@ -1,0 +1,201 @@
+<html>
+<head>
+<title> Peticiones Quejas y Reclamos</title>
+<meta name="viweport" content= <"width=devide-width, initial-scale=1, maximun-scale=no">	
+<link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.2.0.css">
+<script   src="https://code.jquery.com/jquery-1.8.0.js"   integrity="sha256-00Fh8tkPAe+EmVaHFpD+HovxWk7b97qwqVi7nLvjdgs="   crossorigin="anonymous"></script> 
+
+<script type="text/javascript" src=jqm/jquery.mobile-1.2.0.js></script>
+</head>
+<body>
+
+<!--primera pagina-->
+<div data-role="page" id="pagina1"> 
+
+<!--cabecera-->
+
+<div data-role="header">
+<h1>Peticiones, Quejas y Reclamos</h1>
+
+</div>
+
+<!--contenido-->
+<div data role=<"content">
+<a href="#pagina2" data-role="button" data-theme="b">ENTRAR</a>
+
+</div>
+
+<!--pie de pagina-->
+<div data-role="footer">
+<h2>Alfredo Barrios, Andres Barrios Ing. de Sistemas</h2>
+</div>
+</div>
+
+
+
+<!--pagina2-->
+
+<div data-role="page" id="pagina2"> 
+
+<!--cabecera-->
+
+<div data-role="header">
+<h1>Peticiones, Quejas y Reclamos</h1>
+
+</div>
+
+<!--contenido-->
+<div data role=<"content">
+<p align="center">Bievenidos</p>
+
+<a href="#peticion" data-role="button" data-theme="b">PETICION</a>
+<a href="#queja" data-role="button" data-theme="b">QUEJA</a>
+<a href="#reclamo" data-role="button" data-theme="b">RECLAMO</a>
+<a href="#pagina1" data-role="button" data-theme="b">REGRESAR</a>
+
+</div>
+
+<!--pie de pagina-->
+<div data-role="footer">
+<h2>Alfredo Barrios, Andres Barrios Ing. de Sistemas</h2>
+</div>
+</div>
+
+<!--PETICION-->
+<div data-role="page" id="peticion"> 
+
+<!--cabecera-->
+
+<div data-role="header">
+<h1>Peticiones, Quejas y Reclamos</h1>
+
+</div>
+
+<!--contenido-->
+<div data role=<"content">
+<p align="center">PETICION</p>
+<a href="#pagina2" data-role="button" data-theme="b">regresar</a>
+<form class="contact_form" action="contacto.php" method="post">
+    <ul>
+       <li>
+            <h2>Contactanos</h2>
+       </li>
+       <li>
+           <label for="name">Nombre:</label>
+           <input type="text"  placeholder="juana de arco" required />
+       </li>
+       <li>
+           <label for="email">Email:</label>
+           <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required />
+       </li>
+        <li>
+           <label for="Mensaje">Mensaje:</label>
+           <textarea name="Mensaje" cols="40" rows="6" required ></textarea>
+       </li>
+        <li>
+          <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
+
+</div>
+
+<!--pie de pagina-->
+<div data-role="footer">
+<h2>Alfredo Barrios, Andres Barrios Ing. de Sistemas</h2>
+</div>
+</div>
+
+<!--QUEJA-->
+<div data-role="page" id="queja"> 
+
+<!--cabecera-->
+
+<div data-role="header">
+<h1>Peticiones, Quejas y Reclamos</h1>
+
+</div>
+
+<!--contenido-->
+<div data role=<"content">
+<p align="center">QUEJA</p>
+<a href="#pagina2" data-role="button" data-theme="b">regresar</a>
+
+<form class="contact_form" action="contacto.php" method="post">
+    <ul>
+       <li>
+            <h2>Contactanos</h2>
+       </li>
+       <li>
+           <label for="name">Nombre:</label>
+           <input type="text"  placeholder="juana de arco" required />
+       </li>
+       <li>
+           <label for="email">Email:</label>
+           <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required />
+       </li>
+        <li>
+           <label for="Mensaje">Mensaje:</label>
+           <textarea name="Mensaje" cols="40" rows="6" required ></textarea>
+       </li>
+        <li>
+          <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
+
+</div>
+
+<!--pie de pagina-->
+<div data-role="footer">
+<h2>Alfredo Barrios, Andres Barrios Ing. de Sistemas</h2>
+</div>
+</div>
+
+<!--RECLAMO-->
+<div data-role="page" id="reclamo"> 
+
+<!--cabecera-->
+
+<div data-role="header">
+<h1>Peticiones, Quejas y Reclamos</h1>
+
+</div>
+
+<!--contenido-->
+
+<div data role=<"content">
+<p align="center">RECLAMO</p>
+<a href="#pagina2" data-role="button" data-theme="b">regresar</a>
+
+<<form class="contact_form" action="http://trollgames.byethost5.com/contacto.php" method="post">
+    <ul>
+       
+       <li>
+           <label for="name">Nombre:</label>
+           <input type="text"  placeholder="juana de arco" required />
+       </li>
+       <li>
+           <label for="email">Email:</label>
+           <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required />
+       </li>
+        <li>
+           <label for="Mensaje">Mensaje:</label>
+           <textarea name="Mensaje" cols="40" rows="6" required ></textarea>
+       </li>
+        <li>
+          <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
+
+</div>
+
+<!--pie de pagina-->
+<div data-role="footer">
+<h2>Alfredo Barrios, Andres Barrios Ing. de Sistemas</h2>
+</div>
+</div>
+</body>
+</html>
+
